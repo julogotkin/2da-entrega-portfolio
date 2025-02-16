@@ -1,0 +1,27 @@
+@import 'variables';
+
+.navbar {
+    background: white;
+    border-bottom: 1px solid map-get($colors, border);
+}
+
+footer {
+    text-align: center;
+    background: white;
+
+    a {
+        text-decoration: none;
+        color: map-get($colors, secondary);
+    }
+}
+
+.navbar {
+    @include flex-center;
+    background: white;
+
+    @include responsive(mobile) {
+        flex-direction: column;
+    }
+}
+
+  
