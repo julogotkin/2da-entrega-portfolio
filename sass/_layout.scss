@@ -6,12 +6,20 @@
 }
 
 footer {
+    position: relative;
+    width: 100%;
     text-align: center;
     background: white;
+    padding: 20px 0;
+    bottom: 0;
 
     a {
         text-decoration: none;
         color: map-get($colors, secondary);
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 
@@ -23,5 +31,3 @@ footer {
         flex-direction: column;
     }
 }
-
-  

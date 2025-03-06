@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let index = 0;
 
     function setRandomScale(image) {
-        let randomScale = Math.random() * (0.7 - 0.5) + 0.5;
+        let randomScale = Math.random() * (0.9 - 0.6) + 0.7;
         image.style.transform = `scale(${randomScale})`;
     }
 
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Aplicar tamaño aleatorio a la primera imagen antes de que aparezca
     setRandomScale(images[0]);
 
-    setInterval(showNextImage, 1000); 
+    setInterval(showNextImage, 850); 
     
 });
 

@@ -7,8 +7,36 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: $font-main !important;
     min-height: 100vh;
     background-color: map-get($colors, background);
     color: map-get($colors, primary);
+}
+
+main {
+    flex: 1;
+}
+
+.intro {
+    padding: 0 2%;
+
+    h1 {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
+
+    p {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 1.1rem;
+        color: #333;
+    }
 }
