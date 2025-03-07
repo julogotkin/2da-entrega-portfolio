@@ -1,14 +1,10 @@
 {
-  "name": "julian-gotkin-preentrega-2",
+  "name": "julian-gotkin-entrega-final",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {
-    "node-sass": "4.5.0"
-},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --watch sass/style.scss css/style.css",
-    "node-sass": "node-sass --output-style compressed -o dist/css src/scss"
   },
   "repository": {
     "type": "git",
@@ -20,5 +16,8 @@
     "url": "https://github.com/julogotkin/2da-entrega-portfolio/issues"
   },
   "homepage": "https://github.com/julogotkin/2da-entrega-portfolio#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "sass": "^1.85.1"
+  }
 }
