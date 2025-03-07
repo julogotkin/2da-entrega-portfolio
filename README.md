@@ -24,14 +24,3 @@ El sitio es completamente responsive y cuenta con animaciones, optimización SEO
 ✅ **SEO optimizado** con meta etiquetas, OpenGraph y estructura semántica.  
 ✅ **Uso de SASS** para mejorar la organización del CSS.  
 ✅ **Carga optimizada de imágenes** para mejorar el rendimiento.  
-
-## Estructura del proyecto
-📂 proyecto-final/
-├── 📁 css/ → Estilos generados de SASS
-├── 📁 sass/ → Archivos .scss con variables, mixins y layout
-├── 📁 img/ → Imágenes optimizadas
-├── 📁 js/ → Scripts para animaciones y funcionalidades
-├── 📁 html/ → Secciones work.html y contact.html
-├── 📄 index.html → Página principal
-├── 📄 package.json → Configuración de dependencias
-├── 📄 README.md → Documentación
